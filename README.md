@@ -9,7 +9,7 @@ Para funcionar você deverá ter: <br/>
 - Template de e-mail criado (Criar em opções->Modelos de Email <br/>
 
 # Como instalar
-Para instalar é muito simples, antes de tudo edite seu arquivo! <br/>
+Para instalar é muito simples, antes de tudo edite seu arquivo (login_avisa.php)! <br/>
 Linhas para editar: <br/>
 - Linha 13: Informe qual é o nome único de seu template de e-mail criado <br/>
 - Linha 15: Informe o usuário administrador de seu whmcs (é necessário para a API) <br/>
