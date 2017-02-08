@@ -17,10 +17,10 @@ Após edita-lo você deverá enviar para /includes/hooks/ <br/>
 
 # Informações para criação do E-mail personalizado
 Para você exibir no e-mail personalizado que você criou os campos como IP, Hostname, Data e Horário você deverá usar as seguintes TAG's. <br/>
-- Para exibir o IP: {ip} <br/>
-- Para exibir o Hostname: {hostname} <br/>
-- Para exibir a Data: {data_atual} <br/>
-- Para exibir o Horário: {horario} <br/>
+- Para exibir o IP: {$ip} <br/>
+- Para exibir o Hostname: {$hostname} <br/>
+- Para exibir a Data: {$data_atual} <br/>
+- Para exibir o Horário: {$horario} <br/>
 
 # Considerações
 Espero que seja útil para seu dia a dia, caso tenha dúvidas convido a conhecer nosso fórum também: http://forum.whmcs.red <br/>
