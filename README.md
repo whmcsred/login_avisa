@@ -3,7 +3,7 @@ Login Avisa desenvolvido pela WHMCS.RED vem com o proposito de ao cliente logar 
 
 # Requisitos para instalar
 Para funcionar você deverá ter: <br/>
-- WHMCS 6 ou superior <br/>
+- WHMCS 7 ou superior <br/>
 - PHP 5.6 ou superior <br/>
 - PDO e Mysqli instalados <br/>
 - Template de e-mail criado (Criar em opções->Modelos de Email <br/>
