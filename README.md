@@ -35,3 +35,4 @@ Espero que seja útil para seu dia a dia, caso tenha dúvidas convido a conhecer
 Caso desejar conhecer novos módulos, notícias e tutoriais acesse: http://whmcs.red <br/>
 
 Módulo desenvolvido por Luciano Zanita - WHMCS.RED <br/>
+
