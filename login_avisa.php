@@ -116,7 +116,7 @@ class LoginAvisa extends \WHMCS\Module\AbstractWidget
     public function generateOutput($data)
     {
 
- $versao = "0.1";
+ $versao = "0.2";
  $versaodisponivel = file_get_contents("http://whmcs.red/versao/loginavisa.txt");
 
 $codigo = '<div class="icon-stats">
