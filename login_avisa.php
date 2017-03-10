@@ -10,9 +10,9 @@ if (!defined("WHMCS")){
 function login_avisa_cliente($vars){
 
 	//Titulo do E-mail (nome da mensagem)
-	$mensagem = "Aviso de Login";
+	$mensagem = "Nome do Email Aqui";
 	//usuário do administrador
-	$adminsys = "lucianozanita";
+	$adminsys = "Usuário Administrador";
 
 	//////////////////////////////////////////////////////
 	////////////NÃO MODIFICAR A PARTIR DAQUI//////////////
@@ -51,9 +51,9 @@ function login_avisa_cliente($vars){
 function login_avisa_admin($vars){
 
 	//Titulo do E-mail (nome da mensagem)
-	$mensagem = "Aviso de Login";
+	$mensagem = "Nome do Email Aqui";
 	//usuário do administrador
-	$adminsys = "lucianozanita";
+	$adminsys = "Usuário Administrador";
 
 	//////////////////////////////////////////////////////
 	////////////NÃO MODIFICAR A PARTIR DAQUI//////////////
