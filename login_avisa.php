@@ -154,7 +154,7 @@ $codigo = '<div class="icon-stats">
     </div>
 </div>';
  //Checa As versões
- if($versao==$versaodisponivel){} else{ $codigo .= '<center><a href="http://whmcs.red/hook-login-avisa/" target="_new" class="btn btn-danger"><i class="fa fa-download" aria-hidden="true"></i> Baixar Atualizações</a></center><br/>'; }
+ if($versao != $versaodisponivel){ $codigo .= '<center><a href="http://whmcs.red/hook-login-avisa/" target="_new" class="btn btn-danger"><i class="fa fa-download" aria-hidden="true"></i> Baixar Atualizações</a></center><br/>'; }
 
  		//retorna o codigo
         return $codigo;
