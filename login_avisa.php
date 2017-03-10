@@ -10,7 +10,7 @@ if (!defined("WHMCS")){
 function login_avisa_cliente($vars){
 
 	//Titulo do E-mail (nome da mensagem)
-	$mensagem = "Nome do Email Aqui";
+	$mensagem = "Nome único do email";
 	//usuário do administrador
 	$adminsys = "Usuário Administrador";
 
@@ -51,7 +51,7 @@ function login_avisa_cliente($vars){
 function login_avisa_admin($vars){
 
 	//Titulo do E-mail (nome da mensagem)
-	$mensagem = "Nome do Email Aqui";
+	$mensagem = "Nome único do email";
 	//usuário do administrador
 	$adminsys = "Usuário Administrador";
 
@@ -67,10 +67,10 @@ function login_avisa_admin($vars){
     	$primeiro_nome = $admin->firstname;
     	$segundo_nome = $admin->lastname;
 	}
-	//Email a ser enviado (nome dele)
-	$valores["messagename"] = $mensagemadmin;
+	//Montagem do Email a ser enviado
+	$valores["messagename"] = $mensagem;
 	//Comando a ser executado na função
-	$comando = "SendAdminEmail";
+	$comando = "Send_Admin_Email";
 	//Executa o envio para a API Local
 	$executar = localAPI($comando, $valores, $adminsys);
 }
@@ -116,7 +116,7 @@ class LoginAvisa extends \WHMCS\Module\AbstractWidget
     public function generateOutput($data)
     {
 
- $versao = "0.2";
+ $versao = "0.3";
  $versaodisponivel = file_get_contents("http://whmcs.red/versao/loginavisa.txt");
 
 $codigo = '<div class="icon-stats">
