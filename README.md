@@ -46,12 +46,12 @@ Para você exibir no e-mail personalizado que você criou os campos como IP, Hos
 - Para exibir o Hostname: {$hostname} <br/>
 - Para exibir a Data: {$data_atual} <br/>
 - Para exibir o Horário: {$horario} <br/>
-- Para exibir o Pais: {$pais} <br/>
+- Para exibir o País: {$pais} <br/>
 - Para exibir código do Pais: {$pais_codigo} <br/>
-- Para exibir o estado: {$estado} <br/>
-- Para exibir código do estado: {$estado_codigo} <br/>
-- Para exibir a cidade: {$cidade} <br/>
-- Para exibir o cep: {$cep} <br/>
+- Para exibir o Estado: {$estado} <br/>
+- Para exibir Código do Estado: {$estado_codigo} <br/>
+- Para exibir a Cidade: {$cidade} <br/>
+- Para exibir o CEP: {$cep} <br/>
 - Para exibir o ISP: {$isp} <br/>
 - Para exibir a organização associada ao ip: {$organizacao} <br/>
 - Para exibir a AS do ip: {$as} <br/>
