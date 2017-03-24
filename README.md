@@ -33,7 +33,7 @@ Após isso procure pelo "fieldname" o nome do campo que você criou e na mesma l
 <br/>
 Agora vamos configurar o arquivo login_avisa.php<br/>
 Linhas para editar: <br/>
-- Linha 13: Informe qual é o usuário administrador do WHMCS <br/>
+- Linha 13: Informe o usuário administrador de seu whmcs (é necessário para a API) <br/>
 - Linha 14: Informe qual é o nome único de seu template de e-mail criado para alerta de login a clientes <br/>
 - Linha 15: Informe qual é o ID do campo personalizado criado para receber alerta ou não <br/>
 - Linha 69: Informe o usuário administrador de seu whmcs (é necessário para a API) <br/>
